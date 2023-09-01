@@ -1,0 +1,77 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    min-width: 60%;
+}
+.header .container{
+    margin: 0 150px;
+    margin-bottom: 50px;
+}
+.navigation{
+    padding-top: 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 40px;
+}
+.introduction{
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 110px;
+}
+.introduction .intro {
+    flex-grow: 1;
+}
+.introduction img{
+    max-width: 290px;
+    height: 200px;
+    margin: 50px 60px;
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: #faf9f8ac;
+    list-style: none;
+    font-size: 18px;   
+}
+.links ul :nth-child(3){
+    margin-right: 55px;
+}
+.logo{
+    font-size: 24px;
+    color: #FAF9F8;
+    font-weight: 800;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #FAF9F8;
+    margin-bottom: 0;
+}
+P{
+    color: #faf9f8ac;
+    margin-top: 4px;
+}
+button{
+    width: 120px;
+    background-color: #3882f6;
+    color: #faf9f8ed;
+    height: 30px;
+    border-radius: 7px;
+    border: none;
+    font-size: medium;
+    font-weight: 700;
+    margin-top: 2px;
+}
